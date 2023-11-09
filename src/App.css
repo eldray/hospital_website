@@ -1,0 +1,107 @@
+.scrolling-text-container {
+  width: 1305px; 
+  overflow: hidden;
+  border: 2px solid green;
+  background: #007BFF;
+  margin-bottom: 10px;
+  height: 30px;
+}
+
+.scrolling-text {
+  font-weight: bold;
+  font-size: 18px;
+  white-space: nowrap;
+  display: inline-block;
+  animation: scrolling 20s linear infinite;
+  color: #fff;
+}
+
+@keyframes scrolling {
+  from { transform: translateX(100%); }
+  to { transform: translateX(-100%); }
+}
+
+.custom-nav-link {
+  border-radius: 10px; /* Rounded edges */
+  font-weight: bold; /* Bolder font */
+  font-size: 18px; /* Larger text size */
+  margin: 0 12px; /* Add some space between menu items */
+}
+
+.background {
+  background-image: url('./components/images/bac-sec.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+.nav-link{
+  border-radius: 10px; /* Rounded edges */
+  background-color: #3498db;
+  font-size: 18px; 
+}
+
+.mission-box:hover, .vision-box:hover, .emergency-box:hover {
+  background-color: green;
+  transition: background-color 0.3s ease;
+}
+
+#appointment, #contact{
+  border: 2px solid grey;
+  box-shadow: inset;
+  border-radius: 10px;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white; 
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 20px;
+  border-radius: 10px; 
+}
+.glass-effect {
+  background: #fff;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  box-shadow: 0 0 15px 10;
+  margin: 50px;
+}
+
+ .card-serv {
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  box-shadow: 0 0 5px 0;
+}
+
+.search-tab{
+  background-color: #007BFF;
+  border-radius: 10px;
+  padding: 1px;
+}
+
+.text-color{
+  color: blue;
+}
+.card {
+  border: none; /* Remove default card border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.card-body {
+  padding: 2rem; /* Increase padding for better spacing */
+}
+
+.carousel-inner {
+  text-align: center; /* Center the carousel content */
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: center;
+}

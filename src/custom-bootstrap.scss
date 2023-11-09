@@ -1,0 +1,23 @@
+// src/custom-bootstrap.scss
+
+$primary: #007BFF;
+$secondary: #6C757D;
+$success: #28A745;
+$info: #17A2B8;
+$warning: #FFC107;
+$danger: #DC3545;
+$light: #F8F9FA;
+$dark: #343A40;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark
+);
+
+@import "~bootstrap/scss/bootstrap";
