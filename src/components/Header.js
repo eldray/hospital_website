@@ -11,7 +11,7 @@ function Header() {
   return (
     <>
       {['xl'].map((expand) => (
-        <Navbar key={expand} expand={expand} className="bg-body-tertiary mb-3">
+        <Navbar key={expand} expand={expand} className="bg-body-tertiary mb-3 fixed-top">
           <Container fluid>
             <Navbar.Brand href="/">
               <img src={logo} height={60} width={180} alt='logo' className="logo"/>

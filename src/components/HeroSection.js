@@ -2,7 +2,7 @@ import React from 'react';
 
 import Carousel from 'react-bootstrap/Carousel';
 import HeroImage from './images/hero.png';
-import Hero2Image from './images/hero2.webp'; 
+import Hero2Image from './images/hero2.JPG'; 
 import Hero3Image from './images/hero3.avif'; 
 
 function HeroSection() {

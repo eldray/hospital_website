@@ -14,12 +14,12 @@ import nutri from '../components/images/user/nutri.jpg';
 
 const AboutPage = () => {
   return (
-    <div className="p-5">
+    <div className="p-5 mt-5">
         <section className="position-relative">
         <img src={Banner} alt="Banner" className="img-fluid"   
         style={{ width: '1500px', height: '200px' }} />
           <div className="overlay-text">
-            <h2>MyHealer General Hospital</h2>
+            <h2>Patasi Family Hospital</h2>
             <p>Come let us improve your health</p>
           </div>
       </section>
@@ -35,15 +35,15 @@ const AboutPage = () => {
 
          <div className="col-md-4">
     <div className="vision-box p-3 text-center">
-      <h2>OUR VISION</h2>
-      <p>To become a centre of excellence in the provision of specialist healthcare services.</p>
+      <h2>OVERVIEW</h2>
+      <p>Is a private hospital located at South Patasi, providing the best health treatment to your family</p>
     </div>
          </div>
 
           <div className="col-md-4">
     <div className="emergency-box p-3 text-center">
-      <h2>24/7 EMERGENCY SERVICES</h2>
-      <p>You can access our medical emergency services every day of the week.</p>
+      <h2>OUR VISION</h2>
+      <p>To become a centre of excellence in the provision of specialist healthcare services.</p>
     </div>
           </div>
       </div>

@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
 const db = require('./db');
-const Subscription = require('./Subscription');
+const Subscription = require('./models/Subscription');
 const SearchResult = require('./models/SearchResult');
 
 
@@ -28,8 +28,8 @@ app.post('/submit-doctor-appointment', (req, res) => {
 
   // Create email message
   const mailOptions = {
-    from: 'your_email@gmail.com',
-    to: 'destination_email@example.com', // replace with recipient email address
+    from: '${email}',
+    to: 'emk.appiah@gmail.com', // replace with recipient email address
     subject: 'Doctor Appointment Request',
     text: `
       Name: ${name}
@@ -59,7 +59,7 @@ app.post('/submit-contact-form', (req, res) => {
   // Create email message
   const mailOptions = {
     from: 'your_email@gmail.com',
-    to: 'destination_email@example.com', // replace with recipient email address
+    to: 'emk.appiah@gmail.com',
     subject: 'Contact Form Submission',
     text: `
       Name: ${name}
@@ -106,8 +106,6 @@ app.post('/subscribe', (req, res) => {
   });
 });
 
-// Assuming you have a model named `SearchResult`
-const SearchResult = require('./models/SearchResult');
 
 app.get('/search', async (req, res) => {
   const { query } = req.query;

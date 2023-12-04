@@ -93,7 +93,7 @@ const Footer = () => {
 </div>
 
           <div className="col-md-12">
-            <p>&copy; 2023 Your Hospital. All Rights Reserved.</p>
+            <p>&copy; 2023 Patasi Family Hospital. All Rights Reserved.</p>
           </div>
         </div>
       </div>
